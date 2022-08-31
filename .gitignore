@@ -26,3 +26,10 @@ yarn-error.log*
 # Output of 'npm pack'
 *.tgz
 /package
+
+# build
+/outline
+/solid
+/react
+/src
+/sprite
