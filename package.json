@@ -4,21 +4,27 @@
   "description": "Basic icon lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export": "figma-export use-config figma.config.js"
   },
   "author": "Felipe Queiroz",
   "license": "MIT",
-  "homepage": "https://github.com/$your_username/$github_repo#readme",
+  "homepage": "https://github.com/FelipeQueiroz/td-icons-v2#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/$your_username/$github_repo.git"
+    "url": "git+https://github.com/FelipeQueiroz/td-icons-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/$your_username/$github_repo/issues"
+    "url": "https://github.com/FelipeQueiroz/td-icons-v2/issues"
   },
   "keywords": [
     "icons",
     "svg",
     "react"
-  ]
+  ],
+  "devDependencies": {
+    "@figma-export/cli": "^4.4.0",
+    "@figma-export/output-components-as-svg": "^4.4.0",
+    "@figma-export/transform-svg-with-svgo": "^4.4.0",
+    "dotenv": "^16.0.2"
+  }
 }
