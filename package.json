@@ -1,0 +1,24 @@
+{
+  "name": "td-icons-v2",
+  "version": "1.0.0",
+  "description": "Basic icon lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Queiroz",
+  "license": "MIT",
+  "homepage": "https://github.com/$your_username/$github_repo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/$your_username/$github_repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/$your_username/$github_repo/issues"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react"
+  ]
+}
